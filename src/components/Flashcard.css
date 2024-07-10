@@ -1,0 +1,20 @@
+.flashcard{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 10px;
+
+}
+.flashitems{
+    background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  padding: 20px;
+  text-align: center;
+     }
+     .selected{
+        background-color: #c90303;
+        border: 1px solid #ccc;
+        padding: 20px;
+        text-align: center;
+
+     }
